@@ -18,6 +18,13 @@ body {
 /* 
  * 通知  登陆  注销
  * */
+.header{
+	margin-bottom: 0px;
+	border-radius: 0;
+	border-bottom: 1px solid rgb(43,31,39);
+	border-left: 1px solid rgb(43,31,39);
+	border-right: 1px solid rgb(43,31,39)
+}
 @media only screen and (min-width: 768px) {
 	.navbar-right {
 		float: right!important;
@@ -46,3 +53,25 @@ body {
 
 
 /*END header右部导航*/
+
+
+/*导航nav-list*/
+.nav-list{
+	border-radius: 0px;
+	background-image: url(../img/nav-background.jpg) ;
+	border: 0px;
+	color: rgb(255,255,255);
+	font-weight: 700;
+}
+
+.nav-list .navbar-nav > li > a:link {
+    color: white;
+}
+.nav-list .navbar-nav > li > a:visited {
+    color: white;
+}
+.nav-list .navbar-nav > li > a:hover {
+    color: white;
+    background-color: rgb(43, 41, 39);
+}
+/*END 导航nav-list*/
